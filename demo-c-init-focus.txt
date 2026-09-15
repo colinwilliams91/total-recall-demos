@@ -488,26 +488,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
 >
 
 
@@ -523,138 +504,9 @@
 
 
 
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
->
-
-
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-
-
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
->
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
->
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
->
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 
@@ -667,12 +519,12 @@ tr version dev
 
 
 
+
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
@@ -685,12 +537,12 @@ tr version dev
 ┃
 ┃ You can change this anytime by editing ~/.tr/config.yaml.
 ┃
+┃                            Yes     No
+
+←/→ toggle • enter submit • y Yes • n No
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
@@ -703,12 +555,12 @@ tr version dev
 ┃
 ┃ You can change this anytime by editing ~/.tr/config.yaml.
 ┃
+┃                            Yes     No
+
+←/→ toggle • enter submit • y Yes • n No
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
@@ -721,12 +573,12 @@ tr version dev
 ┃
 ┃ You can change this anytime by editing ~/.tr/config.yaml.
 ┃
+┃                            Yes     No
+
+←/→ toggle • enter submit • y Yes • n No
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
@@ -739,12 +591,12 @@ tr version dev
 ┃
 ┃ You can change this anytime by editing ~/.tr/config.yaml.
 ┃
+┃                            Yes     No
+
+←/→ toggle • enter submit • y Yes • n No
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ┃ 🤖  AI Provider
@@ -757,12 +609,12 @@ tr version dev
 ┃   DeepSeek  (e.g. deepseek-v4-pro)
 ┃   OpenRouter  (catalog · deepseek-v4-flash:free)
 ┃   Ollama  (local)
+┃   LM Studio  (local)
+┃   Custom  (advanced — any OpenAI-compatible endpoint)
+
+↑ up • ↓ down • / filter • enter submit
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ┃ 🤖  AI Provider
@@ -775,12 +627,12 @@ tr version dev
 ┃   DeepSeek  (e.g. deepseek-v4-pro)
 ┃   OpenRouter  (catalog · deepseek-v4-flash:free)
 ┃   Ollama  (local)
+┃   LM Studio  (local)
+┃   Custom  (advanced — any OpenAI-compatible endpoint)
+
+↑ up • ↓ down • / filter • enter submit
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ┃ 🤖  AI Provider
@@ -793,12 +645,12 @@ tr version dev
 ┃   DeepSeek  (e.g. deepseek-v4-pro)
 ┃   OpenRouter  (catalog · deepseek-v4-flash:free)
 ┃   Ollama  (local)
+┃   LM Studio  (local)
+┃   Custom  (advanced — any OpenAI-compatible endpoint)
+
+↑ up • ↓ down • / filter • enter submit
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ┃ API Key
@@ -811,12 +663,12 @@ tr version dev
   Model name to use for recall questions.
   > claude-sonnet-4-5
 
+enter next
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ┃ API Key
@@ -829,12 +681,12 @@ tr version dev
   Model name to use for recall questions.
   > claude-sonnet-4-5
 
+enter next
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ┃ API Key
@@ -847,12 +699,12 @@ tr version dev
   Model name to use for recall questions.
   > claude-sonnet-4-5
 
+enter next
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ┃ API Key
@@ -865,12 +717,12 @@ tr version dev
   Model name to use for recall questions.
   > claude-sonnet-4-5
 
+enter next
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ┃ API Key
@@ -883,12 +735,12 @@ tr version dev
   Model name to use for recall questions.
   > claude-sonnet-4-5
 
+enter next
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
   API Key
@@ -901,12 +753,12 @@ tr version dev
 ┃ Model name to use for recall questions.
 ┃ > claude-sonnet-4-5
 
+shift+tab back • enter submit
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -919,12 +771,12 @@ Next: cd into your project and run tr repo.
 
 
 
+
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -937,12 +789,12 @@ Next: cd into your project and run tr repo.
 
 
 
+
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -955,30 +807,12 @@ Next: cd into your project and run tr repo.
 
 
 
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
-  Conversation analysis: enabled
-
-Next: cd into your project and run tr repo.
->
 
 
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -991,12 +825,12 @@ Next: cd into your project and run tr repo.
 
 
 
+
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1009,12 +843,12 @@ Next: cd into your project and run tr repo.
 ┃ most frequently.
 ┃
 ┃                          Yes     No
+
+  Enable commit-msg hook?
+  No-op on its own — pre-commit handles all recall dispatch on
+  commit. Enable only to chain an existing commit-msg hook.
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1027,12 +861,12 @@ Next: cd into your project and run tr repo.
 ┃ most frequently.
 ┃
 ┃                          Yes     No
+
+  Enable commit-msg hook?
+  No-op on its own — pre-commit handles all recall dispatch on
+  commit. Enable only to chain an existing commit-msg hook.
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1045,12 +879,12 @@ Next: cd into your project and run tr repo.
 ┃ most frequently.
 ┃
 ┃                          Yes     No
+
+  Enable commit-msg hook?
+  No-op on its own — pre-commit handles all recall dispatch on
+  commit. Enable only to chain an existing commit-msg hook.
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1063,12 +897,12 @@ Next: cd into your project and run tr repo.
 
                            Yes     No
 
+┃ Enable commit-msg hook?
+┃ No-op on its own — pre-commit handles all recall dispatch on
+┃ commit. Enable only to chain an existing commit-msg hook.
+┃
+┃                         Yes     No
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1081,12 +915,12 @@ Next: cd into your project and run tr repo.
 
                            Yes     No
 
+┃ Enable commit-msg hook?
+┃ No-op on its own — pre-commit handles all recall dispatch on
+┃ commit. Enable only to chain an existing commit-msg hook.
+┃
+┃                         Yes     No
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1099,12 +933,12 @@ Next: cd into your project and run tr repo.
 
                            Yes     No
 
+  Enable commit-msg hook?
+  No-op on its own — pre-commit handles all recall dispatch on
+  commit. Enable only to chain an existing commit-msg hook.
+
+                          Yes     No
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1117,12 +951,12 @@ Next: cd into your project and run tr repo.
 
                            Yes     No
 
+  Enable commit-msg hook?
+  No-op on its own — pre-commit handles all recall dispatch on
+  commit. Enable only to chain an existing commit-msg hook.
+
+                          Yes     No
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1135,12 +969,12 @@ Next: cd into your project and run tr repo.
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
+
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1153,12 +987,12 @@ Next: cd into your project and run tr repo.
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
+
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1171,12 +1005,12 @@ Next: cd into your project and run tr repo.
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
+
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1189,12 +1023,12 @@ Next: cd into your project and run tr repo.
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
+
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1207,12 +1041,12 @@ Next: cd into your project and run tr repo.
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
+
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1225,12 +1059,12 @@ Next: cd into your project and run tr repo.
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
+
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1243,12 +1077,12 @@ Next: cd into your project and run tr repo.
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
+
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1261,12 +1095,12 @@ Next: cd into your project and run tr repo.
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
+
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
 > tr init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
@@ -1279,238 +1113,63 @@ Next: cd into your project and run tr repo.
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
+
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
->
+> tr init
 
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
 
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
->
+> tr init
 
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
 
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
-> git commit -m 'feat: exponential backoff note'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> git commit -m 'feat: exponential backoff note'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> git commit -m 'feat: exponential backoff note'
-
-🧠🤖 Total-Recall Check
-──────────────────────────────────────
-  What does the SRP in "SOLID" stand for?
-  1. Single Responsibility Principle
-  2. Sequential Retrieval Pattern
-  3. Safe Refactoring Protocol
-  4. Stable Release Policy
-──────────────────────────────────────
-[1-4] or Enter to skip:
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> git commit -m 'feat: exponential backoff note'
-
-🧠🤖 Total-Recall Check
-──────────────────────────────────────
-  What does the SRP in "SOLID" stand for?
-  1. Single Responsibility Principle
-  2. Sequential Retrieval Pattern
-  3. Safe Refactoring Protocol
-  4. Stable Release Policy
-──────────────────────────────────────
-[1-4] or Enter to skip:
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> git commit -m 'feat: exponential backoff note'
-Evaluating...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> git commit -m 'feat: exponential backoff note'
-Evaluating...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> git commit -m 'feat: exponential backoff note'
-
-
-Press any key to continue...
-✓ Correct.
-[master e60bc8b] feat: exponential backoff note
- 1 file changed, 1 insertion(+), 1 deletion(-)
->
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> git commit -m 'feat: exponential backoff note'
-
-
-Press any key to continue...
-✓ Correct.
-[master e60bc8b] feat: exponential backoff note
- 1 file changed, 1 insertion(+), 1 deletion(-)
->
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> git commit -m 'feat: exponential backoff note'
-
-
-Press any key to continue...
-✓ Correct.
-[master e60bc8b] feat: exponential backoff note
- 1 file changed, 1 insertion(+), 1 deletion(-)
-> x
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> git commit -m 'feat: exponential backoff note'
-
-
-Press any key to continue...
-✓ Correct.
-[master e60bc8b] feat: exponential backoff note
- 1 file changed, 1 insertion(+), 1 deletion(-)
-> x
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> git commit -m 'feat: exponential backoff note'
-
-
-Press any key to continue...
-✓ Correct.
-[master e60bc8b] feat: exponential backoff note
- 1 file changed, 1 insertion(+), 1 deletion(-)
-> x
-
-
-
-
-
-
-
-
-
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+up/total-recall-demos/.git/hooks
+  Start the daemon with: tr serve
+
+  📬  A post-commit hook will be installed that surfaces a recall qu
+estion
 ────────────────────────────────────────────────────────────────────────────────
