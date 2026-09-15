@@ -1,0 +1,1516 @@
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+>
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+>
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+>
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+┃ 🧠  Enable conversation analysis?
+┃ Would you like Total Recall to analyze your AI assistant
+┃ conversations to generate smarter, more relevant quiz questions?
+┃
+┃ When enabled, the model looks at what you and your AI discuss and
+┃ extracts
+┃ only the concepts — nothing else is kept. Raw conversation text
+┃ is never stored.
+┃
+┃ You can change this anytime by editing ~/.tr/config.yaml.
+┃
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+┃ 🧠  Enable conversation analysis?
+┃ Would you like Total Recall to analyze your AI assistant
+┃ conversations to generate smarter, more relevant quiz questions?
+┃
+┃ When enabled, the model looks at what you and your AI discuss and
+┃ extracts
+┃ only the concepts — nothing else is kept. Raw conversation text
+┃ is never stored.
+┃
+┃ You can change this anytime by editing ~/.tr/config.yaml.
+┃
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+┃ 🧠  Enable conversation analysis?
+┃ Would you like Total Recall to analyze your AI assistant
+┃ conversations to generate smarter, more relevant quiz questions?
+┃
+┃ When enabled, the model looks at what you and your AI discuss and
+┃ extracts
+┃ only the concepts — nothing else is kept. Raw conversation text
+┃ is never stored.
+┃
+┃ You can change this anytime by editing ~/.tr/config.yaml.
+┃
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+┃ 🧠  Enable conversation analysis?
+┃ Would you like Total Recall to analyze your AI assistant
+┃ conversations to generate smarter, more relevant quiz questions?
+┃
+┃ When enabled, the model looks at what you and your AI discuss and
+┃ extracts
+┃ only the concepts — nothing else is kept. Raw conversation text
+┃ is never stored.
+┃
+┃ You can change this anytime by editing ~/.tr/config.yaml.
+┃
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+┃ 🤖  AI Provider
+┃ Which AI provider should generate your recall questions?
+┃ > Anthropic (Claude) — recommended
+┃   OpenAI (e.g. gpt-4o)
+┃   Groq  (cloud · fast · free tier)
+┃   Qwen  (e.g. qwen3.7-max)
+┃   MiniMax  (e.g. MiniMax-M3)
+┃   DeepSeek  (e.g. deepseek-v4-pro)
+┃   OpenRouter  (catalog · deepseek-v4-flash:free)
+┃   Ollama  (local)
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+┃ 🤖  AI Provider
+┃ Which AI provider should generate your recall questions?
+┃ > Anthropic (Claude) — recommended
+┃   OpenAI (e.g. gpt-4o)
+┃   Groq  (cloud · fast · free tier)
+┃   Qwen  (e.g. qwen3.7-max)
+┃   MiniMax  (e.g. MiniMax-M3)
+┃   DeepSeek  (e.g. deepseek-v4-pro)
+┃   OpenRouter  (catalog · deepseek-v4-flash:free)
+┃   Ollama  (local)
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+┃ 🤖  AI Provider
+┃ Which AI provider should generate your recall questions?
+┃ > Anthropic (Claude) — recommended
+┃   OpenAI (e.g. gpt-4o)
+┃   Groq  (cloud · fast · free tier)
+┃   Qwen  (e.g. qwen3.7-max)
+┃   MiniMax  (e.g. MiniMax-M3)
+┃   DeepSeek  (e.g. deepseek-v4-pro)
+┃   OpenRouter  (catalog · deepseek-v4-flash:free)
+┃   Ollama  (local)
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+┃ API Key
+┃ Use env:VAR_NAME so your key is never stored in plaintext.
+┃ Set the variable in your shell profile (e.g. export
+┃ ANTHROPIC_API_KEY=sk-...).
+┃ > env:ANTHROPIC_API_KEY
+
+  Model
+  Model name to use for recall questions.
+  > claude-sonnet-4-5
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+┃ API Key
+┃ Use env:VAR_NAME so your key is never stored in plaintext.
+┃ Set the variable in your shell profile (e.g. export
+┃ ANTHROPIC_API_KEY=sk-...).
+┃ > env:ANTHROPIC_API_KEY
+
+  Model
+  Model name to use for recall questions.
+  > claude-sonnet-4-5
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+┃ API Key
+┃ Use env:VAR_NAME so your key is never stored in plaintext.
+┃ Set the variable in your shell profile (e.g. export
+┃ ANTHROPIC_API_KEY=sk-...).
+┃ > env:ANTHROPIC_API_KEY
+
+  Model
+  Model name to use for recall questions.
+  > claude-sonnet-4-5
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+┃ API Key
+┃ Use env:VAR_NAME so your key is never stored in plaintext.
+┃ Set the variable in your shell profile (e.g. export
+┃ ANTHROPIC_API_KEY=sk-...).
+┃ >
+
+  Model
+  Model name to use for recall questions.
+  > claude-sonnet-4-5
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+┃ API Key
+┃ Use env:VAR_NAME so your key is never stored in plaintext.
+┃ Set the variable in your shell profile (e.g. export
+┃ ANTHROPIC_API_KEY=sk-...).
+┃ > env:TR_DEMO_KEY
+
+  Model
+  Model name to use for recall questions.
+  > claude-sonnet-4-5
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+  API Key
+  Use env:VAR_NAME so your key is never stored in plaintext.
+  Set the variable in your shell profile (e.g. export
+  ANTHROPIC_API_KEY=sk-...).
+  > env:TR_DEMO_KEY
+
+┃ Model
+┃ Model name to use for recall questions.
+┃ > claude-sonnet-4-5
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+>
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+>
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+>
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+>
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+┃ Triggers a recall check on every commit. Highest signal — runs
+┃ most frequently.
+┃
+┃                          Yes     No
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+┃ Triggers a recall check on every commit. Highest signal — runs
+┃ most frequently.
+┃
+┃                          Yes     No
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+┃ Triggers a recall check on every commit. Highest signal — runs
+┃ most frequently.
+┃
+┃                          Yes     No
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+  most frequently.
+
+                           Yes     No
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+  most frequently.
+
+                           Yes     No
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+  most frequently.
+
+                           Yes     No
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+  most frequently.
+
+                           Yes     No
+
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+────────────────────────────────────────────────────────────────────────────────
+> tr serve >/dev/null 2>&1 &
+[1] 1638193
+> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+> tr --version
+tr version dev
+> tr init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run tr repo.
+> tr repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
+otal-recall-demos/.tr.yaml
+  ✓ pre-commit: installed
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> git commit -m 'feat: exponential backoff note'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> git commit -m 'feat: exponential backoff note'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> git commit -m 'feat: exponential backoff note'
+
+🧠🤖 Total-Recall Check
+──────────────────────────────────────
+  What does the SRP in "SOLID" stand for?
+  1. Single Responsibility Principle
+  2. Sequential Retrieval Pattern
+  3. Safe Refactoring Protocol
+  4. Stable Release Policy
+──────────────────────────────────────
+[1-4] or Enter to skip:
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> git commit -m 'feat: exponential backoff note'
+
+🧠🤖 Total-Recall Check
+──────────────────────────────────────
+  What does the SRP in "SOLID" stand for?
+  1. Single Responsibility Principle
+  2. Sequential Retrieval Pattern
+  3. Safe Refactoring Protocol
+  4. Stable Release Policy
+──────────────────────────────────────
+[1-4] or Enter to skip:
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> git commit -m 'feat: exponential backoff note'
+Evaluating...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> git commit -m 'feat: exponential backoff note'
+Evaluating...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> git commit -m 'feat: exponential backoff note'
+
+
+Press any key to continue...
+✓ Correct.
+[master bcdcea9] feat: exponential backoff note
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+>
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> git commit -m 'feat: exponential backoff note'
+
+
+Press any key to continue...
+✓ Correct.
+[master bcdcea9] feat: exponential backoff note
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+>
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> git commit -m 'feat: exponential backoff note'
+
+
+Press any key to continue...
+✓ Correct.
+[master bcdcea9] feat: exponential backoff note
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+> x
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> git commit -m 'feat: exponential backoff note'
+
+
+Press any key to continue...
+✓ Correct.
+[master bcdcea9] feat: exponential backoff note
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+> x
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> git commit -m 'feat: exponential backoff note'
+
+
+Press any key to continue...
+✓ Correct.
+[master bcdcea9] feat: exponential backoff note
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+> x
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
