@@ -1,5 +1,6 @@
 # demo-b: quiz focus — commit → recall question → answer → feedback
 # starts mid-flow: repo already configured, daemon running (both off-camera)
+# approach used: seeded headless daemon — golden-frame shim fallback NOT needed
 
 Output demo-b-quiz-focus.gif
 Output demo-b-quiz-focus.txt
