@@ -6,16 +6,17 @@ Output demo-a-full-flow.txt
 
 Set Shell bash
 Set FontSize 20
-Set Width 1000
+Set Width 1100
 Set Height 640
 Set Theme "TokyoNight"
 Set WindowBar Colorful
 Set BorderRadius 10
 Set Margin 16
 Set MarginFill "#1a1b26"
-Set CursorBlink false
+Set CursorBlink true
 Set TypingSpeed 60ms
-Set PlaybackSpeed 1.1
+Set PlaybackSpeed 1.0
+Set WaitTimeout 60s
 
 Require git
 Require go
@@ -31,28 +32,28 @@ Sleep 1400ms
 Show
 
 # ── install ──
-Type "go install github.com/colinwilliams91/total-recall/cmd/tr@latest"
+Type "go install github.com/colinwilliams91/total-recall/cmd/torec@latest"
 Enter
 Hide
 Wait                       # hidden: wait for install to finish
 Show
-Type "tr --version"
+Type "torec --version"
 Enter
 Wait
 Sleep 600ms
 
 # ── init (real huh forms) ──
-Type "tr init"
+Type "torec init"
 Enter
 Wait+Screen /conversation analysis/
 Sleep 800ms
 Left
 Enter
 Wait+Screen /AI Provider/
-Sleep 600ms
+Sleep 800ms
 Enter
 Wait+Screen /API Key/
-Sleep 400ms
+Sleep 600ms
 Backspace 22
 Type "env:TR_DEMO_KEY"
 Tab
@@ -62,7 +63,7 @@ Sleep 1000ms
 
 # ── hooks in this repo ──
 Sleep 600ms
-Type "tr repo"
+Type "torec repo"
 Enter
 Wait+Screen /recall check on every commit/
 Sleep 500ms
@@ -77,7 +78,7 @@ Wait
 Sleep 900ms
 
 # ── daemon live ──
-Type "tr status"
+Type "torec status"
 Enter
 Wait
 Sleep 900ms

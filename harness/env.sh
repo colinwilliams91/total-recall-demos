@@ -12,12 +12,11 @@ mkdir -p "$DEMO_ROOT/.tmp-tr-home"
 export TR_HOME="$DEMO_ROOT/.tmp-tr-home"
 export PATH="$DEMO_ROOT/bin:$PATH"
 
-# kill stale demo daemons from a previous failed render (own binary only —
-# never a user's system-wide tr serve)
-pkill -f "$DEMO_ROOT/bin/tr" 2>/dev/null || true
+# kill stale demo daemons from a previous failed render (app daemon only)
+pkill -f "torec serve" 2>/dev/null || true
 sleep 0.3
 
-tr config set ai.provider anthropic >/dev/null 2>&1 || true
+torec config set ai.provider anthropic >/dev/null 2>&1 || true
 if [ ! -f "$TR_HOME/config.yaml" ]; then
   mkdir -p "$TR_HOME"
   printf 'ai:\n  provider: anthropic\n  model: claude-sonnet-4-5\n  api_key: env:TR_DEMO_KEY\n' > "$TR_HOME/config.yaml"
