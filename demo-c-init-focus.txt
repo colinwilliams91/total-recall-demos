@@ -507,7 +507,7 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 
 
@@ -525,7 +525,7 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
 ┃ conversations to generate smarter, more relevant quiz questions?
@@ -543,7 +543,7 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
 ┃ conversations to generate smarter, more relevant quiz questions?
@@ -561,7 +561,7 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
 ┃ conversations to generate smarter, more relevant quiz questions?
@@ -579,7 +579,7 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
 ┃ conversations to generate smarter, more relevant quiz questions?
@@ -597,7 +597,7 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ┃ 🤖  AI Provider
 ┃ Which AI provider should generate your recall questions?
@@ -615,7 +615,7 @@
 ↑ up • ↓ down • / filter • enter submit
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ┃ 🤖  AI Provider
 ┃ Which AI provider should generate your recall questions?
@@ -633,7 +633,7 @@
 ↑ up • ↓ down • / filter • enter submit
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ┃ 🤖  AI Provider
 ┃ Which AI provider should generate your recall questions?
@@ -651,7 +651,7 @@
 ↑ up • ↓ down • / filter • enter submit
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ┃ API Key
 ┃ Use env:VAR_NAME so your key is never stored in plaintext.
@@ -669,7 +669,7 @@ enter next
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ┃ API Key
 ┃ Use env:VAR_NAME so your key is never stored in plaintext.
@@ -687,7 +687,7 @@ enter next
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ┃ API Key
 ┃ Use env:VAR_NAME so your key is never stored in plaintext.
@@ -705,7 +705,7 @@ enter next
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ┃ API Key
 ┃ Use env:VAR_NAME so your key is never stored in plaintext.
@@ -723,7 +723,7 @@ enter next
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ┃ API Key
 ┃ Use env:VAR_NAME so your key is never stored in plaintext.
@@ -741,7 +741,7 @@ enter next
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
   API Key
   Use env:VAR_NAME so your key is never stored in plaintext.
@@ -759,13 +759,13 @@ shift+tab back • enter submit
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
+Next: cd into your project and run torec repo.
 >
 
 
@@ -777,13 +777,13 @@ Next: cd into your project and run tr repo.
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
+Next: cd into your project and run torec repo.
 >
 
 
@@ -795,13 +795,13 @@ Next: cd into your project and run tr repo.
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
+Next: cd into your project and run torec repo.
 >
 
 
@@ -813,14 +813,14 @@ Next: cd into your project and run tr repo.
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 
 
 
@@ -831,14 +831,14 @@ Next: cd into your project and run tr repo.
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 ┃ Triggers a recall check on every commit. Highest signal — runs
 ┃ most frequently.
 ┃
@@ -849,14 +849,14 @@ Next: cd into your project and run tr repo.
   commit. Enable only to chain an existing commit-msg hook.
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 ┃ Triggers a recall check on every commit. Highest signal — runs
 ┃ most frequently.
 ┃
@@ -867,14 +867,14 @@ Next: cd into your project and run tr repo.
   commit. Enable only to chain an existing commit-msg hook.
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 ┃ Triggers a recall check on every commit. Highest signal — runs
 ┃ most frequently.
 ┃
@@ -885,14 +885,14 @@ Next: cd into your project and run tr repo.
   commit. Enable only to chain an existing commit-msg hook.
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
   most frequently.
 
                            Yes     No
@@ -903,14 +903,14 @@ Next: cd into your project and run tr repo.
 ┃
 ┃                         Yes     No
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
   most frequently.
 
                            Yes     No
@@ -921,14 +921,14 @@ Next: cd into your project and run tr repo.
 ┃
 ┃                         Yes     No
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
   most frequently.
 
                            Yes     No
@@ -939,14 +939,14 @@ Next: cd into your project and run tr repo.
 
                           Yes     No
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
   most frequently.
 
                            Yes     No
@@ -957,219 +957,273 @@ Next: cd into your project and run tr repo.
 
                           Yes     No
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 ✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
 up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
+  Start the daemon with: torec serve
 
   📬  A post-commit hook will be installed that surfaces a recall qu
 estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 ✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
 up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
+  Start the daemon with: torec serve
 
   📬  A post-commit hook will be installed that surfaces a recall qu
 estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 ✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
 up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
+  Start the daemon with: torec serve
 
   📬  A post-commit hook will be installed that surfaces a recall qu
 estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 ✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
 up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
+  Start the daemon with: torec serve
 
   📬  A post-commit hook will be installed that surfaces a recall qu
 estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 ✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
 up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
+  Start the daemon with: torec serve
 
   📬  A post-commit hook will be installed that surfaces a recall qu
 estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 ✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
 up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
+  Start the daemon with: torec serve
 
   📬  A post-commit hook will be installed that surfaces a recall qu
 estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 ✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
 up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
+  Start the daemon with: torec serve
 
   📬  A post-commit hook will be installed that surfaces a recall qu
 estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec init
 
 ✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
+Next: cd into your project and run torec repo.
+> torec repo
 ✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
 otal-recall-demos/.tr.yaml
   ✓ pre-commit: installed
 ✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
 up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
+  Start the daemon with: torec serve
 
   📬  A post-commit hook will be installed that surfaces a recall qu
 estion
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+>
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
-  Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
-  ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
-up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
 
-  📬  A post-commit hook will be installed that surfaces a recall qu
-estion
+
+
+
+
+
+
+
+
+
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+>
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
-  Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
-  ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
-up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
 
-  📬  A post-commit hook will be installed that surfaces a recall qu
-estion
+
+
+
+
+
+
+
+
+
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec status
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
-  Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
-  ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
-up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
 
-  📬  A post-commit hook will be installed that surfaces a recall qu
-estion
+
+
+
+
+
+
+
+
+
+
+
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr init
+> torec status
+✓ Daemon running on localhost:7331
+🧠🔧YAML file values suffixed by scope, e.g.  [user]  level or  [rep
+o]  level...
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
-  Conversation analysis: enabled
+privacy:
+  conversation_analysis: true  # [user]
+ai:
+  provider: anthropic  # [user]
+  model: claude-sonnet-4-5  # [user]
+  api-key: env:TR_DEMO_KEY  # [user]
+recall:
+  difficulty:   # [user]
+  max_questions: 0  # [user]
+prompt-asset:
+  drift-warning-days: 0  # [user]
+hooks:
+────────────────────────────────────────────────────────────────────────────────
+> torec status
+✓ Daemon running on localhost:7331
+🧠🔧YAML file values suffixed by scope, e.g.  [user]  level or  [rep
+o]  level...
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
-  ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
-up/total-recall-demos/.git/hooks
-  Start the daemon with: tr serve
+privacy:
+  conversation_analysis: true  # [user]
+ai:
+  provider: anthropic  # [user]
+  model: claude-sonnet-4-5  # [user]
+  api-key: env:TR_DEMO_KEY  # [user]
+recall:
+  difficulty:   # [user]
+  max_questions: 0  # [user]
+prompt-asset:
+  drift-warning-days: 0  # [user]
+hooks:
+────────────────────────────────────────────────────────────────────────────────
+> torec status
+✓ Daemon running on localhost:7331
+🧠🔧YAML file values suffixed by scope, e.g.  [user]  level or  [rep
+o]  level...
 
-  📬  A post-commit hook will be installed that surfaces a recall qu
-estion
+privacy:
+  conversation_analysis: true  # [user]
+ai:
+  provider: anthropic  # [user]
+  model: claude-sonnet-4-5  # [user]
+  api-key: env:TR_DEMO_KEY  # [user]
+recall:
+  difficulty:   # [user]
+  max_questions: 0  # [user]
+prompt-asset:
+  drift-warning-days: 0  # [user]
+hooks:
+────────────────────────────────────────────────────────────────────────────────
+> torec status
+✓ Daemon running on localhost:7331
+🧠🔧YAML file values suffixed by scope, e.g.  [user]  level or  [rep
+o]  level...
+
+privacy:
+  conversation_analysis: true  # [user]
+ai:
+  provider: anthropic  # [user]
+  model: claude-sonnet-4-5  # [user]
+  api-key: env:TR_DEMO_KEY  # [user]
+recall:
+  difficulty:   # [user]
+  max_questions: 0  # [user]
+prompt-asset:
+  drift-warning-days: 0  # [user]
+hooks:
 ────────────────────────────────────────────────────────────────────────────────

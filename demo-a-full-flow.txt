@@ -506,8 +506,6 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
 >
 
 
@@ -523,28 +521,11 @@
 
 
 
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
 
 
 
@@ -560,9 +541,153 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> torec serve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> torec serve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
 >
 
 
@@ -578,29 +703,9 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-
-
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
 >
 
 
@@ -613,12 +718,12 @@ tr version dev
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
 >
 
 
@@ -631,31 +736,15 @@ tr version dev
 
 
 
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
->
-
-
-
-
-
-
-
-
-
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
+
+
 
 
 
@@ -668,84 +757,82 @@ tr version dev
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
 ┃ conversations to generate smarter, more relevant quiz questions?
 ┃
-┃ When enabled, the model looks at what you and your AI discuss and
-┃ extracts
+┃ When enabled, the model looks at what you and your AI discuss and extracts
 ┃ only the concepts — nothing else is kept. Raw conversation text
 ┃ is never stored.
 ┃
 ┃ You can change this anytime by editing ~/.tr/config.yaml.
 ┃
+┃                                Yes     No
+
+←/→ toggle • enter submit • y Yes • n No
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
 ┃ conversations to generate smarter, more relevant quiz questions?
 ┃
-┃ When enabled, the model looks at what you and your AI discuss and
-┃ extracts
+┃ When enabled, the model looks at what you and your AI discuss and extracts
 ┃ only the concepts — nothing else is kept. Raw conversation text
 ┃ is never stored.
 ┃
 ┃ You can change this anytime by editing ~/.tr/config.yaml.
 ┃
+┃                                Yes     No
+
+←/→ toggle • enter submit • y Yes • n No
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
 ┃ conversations to generate smarter, more relevant quiz questions?
 ┃
-┃ When enabled, the model looks at what you and your AI discuss and
-┃ extracts
+┃ When enabled, the model looks at what you and your AI discuss and extracts
 ┃ only the concepts — nothing else is kept. Raw conversation text
 ┃ is never stored.
 ┃
 ┃ You can change this anytime by editing ~/.tr/config.yaml.
 ┃
+┃                                Yes     No
+
+←/→ toggle • enter submit • y Yes • n No
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 ┃ 🧠  Enable conversation analysis?
 ┃ Would you like Total Recall to analyze your AI assistant
 ┃ conversations to generate smarter, more relevant quiz questions?
 ┃
-┃ When enabled, the model looks at what you and your AI discuss and
-┃ extracts
+┃ When enabled, the model looks at what you and your AI discuss and extracts
 ┃ only the concepts — nothing else is kept. Raw conversation text
 ┃ is never stored.
 ┃
 ┃ You can change this anytime by editing ~/.tr/config.yaml.
 ┃
+┃                                Yes     No
+
+←/→ toggle • enter submit • y Yes • n No
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
 ┃ 🤖  AI Provider
 ┃ Which AI provider should generate your recall questions?
@@ -757,13 +844,13 @@ tr version dev
 ┃   DeepSeek  (e.g. deepseek-v4-pro)
 ┃   OpenRouter  (catalog · deepseek-v4-flash:free)
 ┃   Ollama  (local)
+┃   LM Studio  (local)
+┃   Custom  (advanced — any OpenAI-compatible endpoint)
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
 ┃ 🤖  AI Provider
 ┃ Which AI provider should generate your recall questions?
@@ -775,13 +862,13 @@ tr version dev
 ┃   DeepSeek  (e.g. deepseek-v4-pro)
 ┃   OpenRouter  (catalog · deepseek-v4-flash:free)
 ┃   Ollama  (local)
+┃   LM Studio  (local)
+┃   Custom  (advanced — any OpenAI-compatible endpoint)
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
 ┃ 🤖  AI Provider
 ┃ Which AI provider should generate your recall questions?
@@ -793,492 +880,494 @@ tr version dev
 ┃   DeepSeek  (e.g. deepseek-v4-pro)
 ┃   OpenRouter  (catalog · deepseek-v4-flash:free)
 ┃   Ollama  (local)
+┃   LM Studio  (local)
+┃   Custom  (advanced — any OpenAI-compatible endpoint)
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
 ┃ API Key
 ┃ Use env:VAR_NAME so your key is never stored in plaintext.
-┃ Set the variable in your shell profile (e.g. export
-┃ ANTHROPIC_API_KEY=sk-...).
+┃ Set the variable in your shell profile (e.g. export ANTHROPIC_API_KEY=sk-.
+┃ ..).
 ┃ > env:ANTHROPIC_API_KEY
 
   Model
   Model name to use for recall questions.
   > claude-sonnet-4-5
 
+enter next
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
 ┃ API Key
 ┃ Use env:VAR_NAME so your key is never stored in plaintext.
-┃ Set the variable in your shell profile (e.g. export
-┃ ANTHROPIC_API_KEY=sk-...).
+┃ Set the variable in your shell profile (e.g. export ANTHROPIC_API_KEY=sk-.
+┃ ..).
 ┃ > env:ANTHROPIC_API_KEY
 
   Model
   Model name to use for recall questions.
   > claude-sonnet-4-5
 
+enter next
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
 ┃ API Key
 ┃ Use env:VAR_NAME so your key is never stored in plaintext.
-┃ Set the variable in your shell profile (e.g. export
-┃ ANTHROPIC_API_KEY=sk-...).
+┃ Set the variable in your shell profile (e.g. export ANTHROPIC_API_KEY=sk-.
+┃ ..).
 ┃ > env:ANTHROPIC_API_KEY
 
   Model
   Model name to use for recall questions.
   > claude-sonnet-4-5
 
+enter next
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
 ┃ API Key
 ┃ Use env:VAR_NAME so your key is never stored in plaintext.
-┃ Set the variable in your shell profile (e.g. export
-┃ ANTHROPIC_API_KEY=sk-...).
+┃ Set the variable in your shell profile (e.g. export ANTHROPIC_API_KEY=sk-.
+┃ ..).
 ┃ >
 
   Model
   Model name to use for recall questions.
   > claude-sonnet-4-5
 
+enter next
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
 ┃ API Key
 ┃ Use env:VAR_NAME so your key is never stored in plaintext.
-┃ Set the variable in your shell profile (e.g. export
-┃ ANTHROPIC_API_KEY=sk-...).
+┃ Set the variable in your shell profile (e.g. export ANTHROPIC_API_KEY=sk-.
+┃ ..).
 ┃ > env:TR_DEMO_KEY
 
   Model
   Model name to use for recall questions.
   > claude-sonnet-4-5
 
+enter next
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
   API Key
   Use env:VAR_NAME so your key is never stored in plaintext.
-  Set the variable in your shell profile (e.g. export
-  ANTHROPIC_API_KEY=sk-...).
+  Set the variable in your shell profile (e.g. export ANTHROPIC_API_KEY=sk-.
+  ..).
   > env:TR_DEMO_KEY
 
 ┃ Model
 ┃ Model name to use for recall questions.
 ┃ > claude-sonnet-4-5
 
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+shift+tab back • enter submit
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
+Next: cd into your project and run torec repo.
 >
 
 
 
 
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
+Next: cd into your project and run torec repo.
 >
 
 
 
 
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
+Next: cd into your project and run torec repo.
 >
 
 
 
 
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
+Next: cd into your project and run torec repo.
 >
 
 
 
 
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
-
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
-  Conversation analysis: enabled
-
-Next: cd into your project and run tr repo.
-> tr repo
-
-
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-┃ Triggers a recall check on every commit. Highest signal — runs
-┃ most frequently.
+Next: cd into your project and run torec repo.
+> torec repo
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
+  Conversation analysis: enabled
+
+Next: cd into your project and run torec repo.
+> torec repo
+┃ Triggers a recall check on every commit. Highest signal — runs most
+┃ frequently.
 ┃
-┃                          Yes     No
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+┃                             Yes     No
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+  Enable commit-msg hook?
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-┃ Triggers a recall check on every commit. Highest signal — runs
-┃ most frequently.
+Next: cd into your project and run torec repo.
+> torec repo
+┃ Triggers a recall check on every commit. Highest signal — runs most
+┃ frequently.
 ┃
-┃                          Yes     No
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+┃                             Yes     No
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+  Enable commit-msg hook?
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-┃ Triggers a recall check on every commit. Highest signal — runs
-┃ most frequently.
+Next: cd into your project and run torec repo.
+> torec repo
+┃ Triggers a recall check on every commit. Highest signal — runs most
+┃ frequently.
 ┃
-┃                          Yes     No
-────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+┃                             Yes     No
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+  Enable commit-msg hook?
+────────────────────────────────────────────────────────────────────────────────
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
+
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-  most frequently.
+Next: cd into your project and run torec repo.
+> torec repo
+  Triggers a recall check on every commit. Highest signal — runs most
+  frequently.
 
-                           Yes     No
+                              Yes     No
 
+┃ Enable commit-msg hook?
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-  most frequently.
+Next: cd into your project and run torec repo.
+> torec repo
+  Triggers a recall check on every commit. Highest signal — runs most
+  frequently.
 
-                           Yes     No
+                              Yes     No
 
+┃ Enable commit-msg hook?
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-  most frequently.
+Next: cd into your project and run torec repo.
+> torec repo
+  Triggers a recall check on every commit. Highest signal — runs most
+  frequently.
 
-                           Yes     No
+                              Yes     No
 
+  Enable commit-msg hook?
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-  most frequently.
+Next: cd into your project and run torec repo.
+> torec repo
+  Triggers a recall check on every commit. Highest signal — runs most
+  frequently.
 
-                           Yes     No
+                              Yes     No
 
+  Enable commit-msg hook?
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
+Next: cd into your project and run torec repo.
+> torec repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tr.yaml
   ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-group/total
+-recall-demos/.git/hooks
+  Start the daemon with: torec serve
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
+Next: cd into your project and run torec repo.
+> torec repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tr.yaml
   ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-group/total
+-recall-demos/.git/hooks
+  Start the daemon with: torec serve
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
+Next: cd into your project and run torec repo.
+> torec repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tr.yaml
   ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-group/total
+-recall-demos/.git/hooks
+  Start the daemon with: torec serve
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
+Next: cd into your project and run torec repo.
+> torec repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tr.yaml
   ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-group/total
+-recall-demos/.git/hooks
+  Start the daemon with: torec serve
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
+Next: cd into your project and run torec repo.
+> torec repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tr.yaml
   ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-group/total
+-recall-demos/.git/hooks
+  Start the daemon with: torec serve
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
+Next: cd into your project and run torec repo.
+> torec repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tr.yaml
   ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-group/total
+-recall-demos/.git/hooks
+  Start the daemon with: torec serve
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
+Next: cd into your project and run torec repo.
+> torec repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tr.yaml
   ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-group/total
+-recall-demos/.git/hooks
+  Start the daemon with: torec serve
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
+Next: cd into your project and run torec repo.
+> torec repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tr.yaml
   ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-group/total
+-recall-demos/.git/hooks
+  Start the daemon with: torec serve
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1640078
-> go install github.com/colinwilliams91/total-recall/cmd/tr@latest
-> tr --version
-tr version dev
-> tr init
+> go install github.com/colinwilliams91/total-recall/cmd/torec@latest
+> torec --version
+torec version dev
+> torec init
 
-✓ User config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tmp-tr-home/config.yaml
+✓ User config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tmp-tr-home/config.yaml
   Conversation analysis: enabled
 
-Next: cd into your project and run tr repo.
-> tr repo
-✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/t
-otal-recall-demos/.tr.yaml
+Next: cd into your project and run torec repo.
+> torec repo
+✓ Repo config saved to /home/colin/Projects/oss/total-recall-group/total-rec
+all-demos/.tr.yaml
   ✓ pre-commit: installed
-✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-gro
+✓ Installed 1 hook(s) into /home/colin/Projects/oss/total-recall-group/total
+-recall-demos/.git/hooks
+  Start the daemon with: torec serve
 ────────────────────────────────────────────────────────────────────────────────
 >
 
@@ -1429,7 +1518,7 @@ Evaluating...
 
 Press any key to continue...
 ✓ Correct.
-[master e60bc8b] feat: exponential backoff note
+[master 0748939] feat: exponential backoff note
  1 file changed, 1 insertion(+), 1 deletion(-)
 >
 
@@ -1447,7 +1536,7 @@ Press any key to continue...
 
 Press any key to continue...
 ✓ Correct.
-[master e60bc8b] feat: exponential backoff note
+[master 0748939] feat: exponential backoff note
  1 file changed, 1 insertion(+), 1 deletion(-)
 >
 
@@ -1465,7 +1554,7 @@ Press any key to continue...
 
 Press any key to continue...
 ✓ Correct.
-[master e60bc8b] feat: exponential backoff note
+[master 0748939] feat: exponential backoff note
  1 file changed, 1 insertion(+), 1 deletion(-)
 > x
 
@@ -1483,7 +1572,7 @@ Press any key to continue...
 
 Press any key to continue...
 ✓ Correct.
-[master e60bc8b] feat: exponential backoff note
+[master 0748939] feat: exponential backoff note
  1 file changed, 1 insertion(+), 1 deletion(-)
 > x
 
@@ -1501,7 +1590,7 @@ Press any key to continue...
 
 Press any key to continue...
 ✓ Correct.
-[master e60bc8b] feat: exponential backoff note
+[master 0748939] feat: exponential backoff note
  1 file changed, 1 insertion(+), 1 deletion(-)
 > x
 

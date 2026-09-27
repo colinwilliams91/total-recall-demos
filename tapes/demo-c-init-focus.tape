@@ -28,7 +28,7 @@ Show
 
 # scene: init — provider, env-safe key, model (real huh forms)
 Sleep 500ms
-Type "tr init"
+Type "torec init"
 Enter
 Wait+Screen /conversation analysis/
 Sleep 900ms
@@ -47,7 +47,7 @@ Wait
 Sleep 1100ms
 
 # scene: hooks (one confirm form, real TUI)
-Type "tr repo"
+Type "torec repo"
 Enter
 Wait+Screen /recall check on every commit/
 Sleep 600ms
@@ -62,13 +62,19 @@ Wait
 Sleep 900ms
 
 # scene: daemon + resolved config
+Show
+Type "torec serve"
+Sleep 700ms
 Hide
-Type "tr serve >/dev/null 2>&1 &"
+Type " >/dev/null 2>&1 &"  # finish off-camera: daemon boots, job notice hidden
 Enter
 Sleep 1400ms
+Type "clear"               # wipe redirects + job PID from the visible screen
+Enter
+Sleep 400ms
 Show
 Sleep 400ms
-Type "tr status"
+Type "torec status"
 Enter
 Wait
 Sleep 1600ms

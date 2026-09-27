@@ -471,8 +471,60 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> torec serve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+> torec serve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
 > . ./harness/seed.sh
 >
 
@@ -488,9 +540,9 @@
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 >
 
@@ -506,9 +558,9 @@
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 > git commit -m 'fix: handle race in cache.Save'
 
@@ -524,9 +576,9 @@
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 > git commit -m 'fix: handle race in cache.Save'
 
@@ -542,9 +594,9 @@
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 > git commit -m 'fix: handle race in cache.Save'
 
@@ -560,9 +612,9 @@
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 > git commit -m 'fix: handle race in cache.Save'
 
@@ -578,9 +630,9 @@
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 > git commit -m 'fix: handle race in cache.Save'
 Evaluating...
@@ -596,9 +648,9 @@ Evaluating...
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 > git commit -m 'fix: handle race in cache.Save'
 Evaluating...
@@ -614,16 +666,16 @@ Evaluating...
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 > git commit -m 'fix: handle race in cache.Save'
 
 
 Press any key to continue...
 ✓ Correct.
-[master 2b01856] fix: handle race in cache.Save
+[master a6f63af] fix: handle race in cache.Save
  1 file changed, 1 insertion(+), 1 deletion(-)
 >
 
@@ -632,16 +684,16 @@ Press any key to continue...
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 > git commit -m 'fix: handle race in cache.Save'
 
 
 Press any key to continue...
 ✓ Correct.
-[master 2b01856] fix: handle race in cache.Save
+[master a6f63af] fix: handle race in cache.Save
  1 file changed, 1 insertion(+), 1 deletion(-)
 >
 
@@ -650,16 +702,16 @@ Press any key to continue...
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 > git commit -m 'fix: handle race in cache.Save'
 
 
 Press any key to continue...
 ✓ Correct.
-[master 2b01856] fix: handle race in cache.Save
+[master a6f63af] fix: handle race in cache.Save
  1 file changed, 1 insertion(+), 1 deletion(-)
 > x
 
@@ -668,16 +720,16 @@ Press any key to continue...
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 > git commit -m 'fix: handle race in cache.Save'
 
 
 Press any key to continue...
 ✓ Correct.
-[master 2b01856] fix: handle race in cache.Save
+[master a6f63af] fix: handle race in cache.Save
  1 file changed, 1 insertion(+), 1 deletion(-)
 > x
 
@@ -686,18 +738,20 @@ Press any key to continue...
 
 
 
+
+
 ────────────────────────────────────────────────────────────────────────────────
-> tr serve >/dev/null 2>&1 &
-[1] 1647103
 > . ./harness/seed.sh
 > git commit -m 'fix: handle race in cache.Save'
 
 
 Press any key to continue...
 ✓ Correct.
-[master 2b01856] fix: handle race in cache.Save
+[master a6f63af] fix: handle race in cache.Save
  1 file changed, 1 insertion(+), 1 deletion(-)
 > x
+
+
 
 
 

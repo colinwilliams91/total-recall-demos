@@ -25,9 +25,16 @@ Hide
 Type ". ./harness/env.sh && clear"
 Enter
 Wait
-Type "tr serve >/dev/null 2>&1 &"
+Show
+Type "torec serve"
+Sleep 700ms
+Hide
+Type " >/dev/null 2>&1 &"  # finish off-camera: daemon boots, job notice hidden
 Enter
 Sleep 1400ms
+Type "clear"               # wipe redirects + job PID from the visible screen
+Enter
+Sleep 400ms
 Type ". ./harness/seed.sh"
 Enter
 Wait
